@@ -1,0 +1,22 @@
+﻿# Model checkpoints and weights (DO NOT COMMIT)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Data artifacts & large matrices
+*.npz
+*.npy
+*.mat
+
+# Result outputs & caches
+results_seed6/
+seed_6_fair/
+fair_s3/
+__pycache__/
+*.pyc
+
+# System / IDE
+.vscode/
+.idea/
+*.log
