@@ -1,6 +1,3 @@
-"""Usage: python check_selection.py results_seed6/n12_seed1/results.csv
-For each target: accuracy of mean-of-all-sources, source picked by calibration loss
-(no test data used), and oracle best (reference only). Also counts finished pairs."""
 import csv, sys
 import numpy as np
 
