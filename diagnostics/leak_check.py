@@ -1,6 +1,6 @@
 import argparse
 import numpy as np
-import Loading_Data
+from data import Loading_Data
 import protocol_mine as P
 
 
