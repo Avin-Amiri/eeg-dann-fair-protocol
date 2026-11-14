@@ -1,7 +1,7 @@
 import argparse
 import numpy as np
 from data import Loading_Data
-import protocol_mine as P
+import protocols.protocol_mine as P
 
 
 def emotion_of(trials):
