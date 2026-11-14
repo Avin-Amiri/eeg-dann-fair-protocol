@@ -1,12 +1,3 @@
-"""leak_check.py - does the BASE protocol leak test data?
-
-Idea: use NO source subjects, NO domain adaptation. Just a dumb 1-nearest-neighbour
-trained only on the few labelled target windows. Score it two ways:
-  base : test = ALL target windows (labelled ones included)  -> leaky
-  fair : test = last 30% of each trial, with a gap            -> clean
-If 'base' >> 'fair' the protocol leaks.  Run:
-  SEED_DIR=/path/to/SEED SEED_SESSION=1 python leak_check.py --targets 1 2 3
-"""
 import argparse
 import numpy as np
 import Loading_Data
